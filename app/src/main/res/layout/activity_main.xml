@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_marginTop="0dp"
-        android:background="@color/white"
+        android:background="#C2C6C6"
         android:id="@+id/toolbar">
 
         <RelativeLayout
@@ -23,7 +23,7 @@
                 android:text="News"
                 android:textStyle="bold"
                 android:textSize="20sp"
-                android:textColor="#03A9F4"
+                android:textColor="#012C40"
         />
 
         </RelativeLayout>
@@ -35,12 +35,12 @@
         android:layout_height="?attr/actionBarSize"
         android:id="@+id/include"
         android:layout_below="@+id/toolbar"
-        app:tabTextColor="#03A9F4"
-        app:tabIndicatorColor="#03A9F4"
+        app:tabTextColor="#012C40"
+        app:tabIndicatorColor="#012C40"
         app:tabIndicatorHeight="3.5dp"
         android:layout_marginTop="0dp"
         app:tabMode="scrollable"
-        android:backgroundTint="@color/white">
+        android:backgroundTint="#C2C6C6">
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
